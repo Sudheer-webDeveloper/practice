@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+  justify-content: space-between;
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.logo img {
+  width: 150px;
+}
+.navitems ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  font-weight: bold;
+}
+.navitems li {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+.login {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: center;
+}
+.login button {
+  padding: 5px 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: red;
+  color: white;
+  font-size: 1rem;
+}
+
+/* //hero */
+
+.flexcontainer1 {
+  padding: 60px 20px;
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
+  flex-wrap: wrap;
+}
+.flexcontainer1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flexitem1 {
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.flexitem1 p {
+  font-size: 50px;
+}
+
+.flexitem1 h3 {
+  font-size: 60px;
+}
+.flexitem1 h2 {
+  font-size: 10rem;
+  color: white;
+  z-index: 0;
+}
+.flexitem1 button {
+  padding: 10px 5px;
+  width: 10rem;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.flexitem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  padding-right: 3rem;
+}
+
+.image {
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+}
+.image img {
+  z-index: 10;
+}
